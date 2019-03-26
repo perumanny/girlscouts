@@ -82,6 +82,8 @@ a:hover {
 }
 
 .header {
+	display:flex;
+	justify-content: flex-start;
 	background-color: #00A850;
 }
 
@@ -92,9 +94,9 @@ a:hover {
 	margin-right: 120px;
 }
 
-.header {
+.header2 {
 	display:flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 }
 
 .title {
@@ -136,6 +138,30 @@ a:hover {
 	padding-bottom: 0px;
 	width:175px;
 	height:40px;
+	color: #ffffff;
+	border-radius: 30px 30px 30px 30px;
+	margin-top: 10px;
+	font-size: .85em;
+	margin-left: 20px;
+}
+
+input {
+	width: 100%;
+	border-radius: 5px;
+	height: 22px;
+	color: black;
+}
+
+form {
+	color:#00A850;
+}
+
+.div2 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	width:175px;
+	height:40px;
+	background-color:#007236;
 	color: #ffffff;
 	border-radius: 30px 30px 30px 30px;
 	margin-top: 10px;
