@@ -132,4 +132,13 @@ a:hover {
 
 .divactive {
 	background-color: #007236;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	width:175px;
+	height:40px;
+	color: #ffffff;
+	border-radius: 30px 30px 30px 30px;
+	margin-top: 10px;
+	font-size: .85em;
+	margin-left: 20px;
 }
