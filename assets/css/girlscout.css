@@ -3,7 +3,7 @@
 
 .width {
 	margin:auto;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .color {
@@ -52,6 +52,19 @@
 	border-radius: 30px 30px 30px 30px;
 	margin-top: 10px;
 	font-size: .85em;
+}
+
+.div2 {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	width:175px;
+	height: 40px;
+	background-color:#007236;
+	color:#ffffff;
+	border-radius: 30px 30px 30px 30px;
+	margin-top: 10px;
+	font-size:.85em;
+	margin-left:20px;
 }
 
 .div:hover {
