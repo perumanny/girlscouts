@@ -56,15 +56,17 @@
 
 .div2 {
 	padding-top: 10px;
-	padding-bottom: 0px;
-	width:175px;
-	height: 40px;
+	padding-bottom: 10px;
+	padding-left:5px;
+	padding-right:5px;
+	width:100%;
+	min-height: 40px;
 	background-color:#007236;
 	color:#ffffff;
 	border-radius: 30px 30px 30px 30px;
 	margin-top: 10px;
 	font-size:.85em;
-	margin-left:20px;
+	text-align: center;
 }
 
 .div:hover {
@@ -197,6 +199,16 @@
 	display:none;
 }
 
+input {
+	width: 100%;
+	border-radius: 15px 15px 15px 15px
+}
+
+form {
+	color: #00A850;
+	font-size: .85em;
+}
+
 @media only screen and (max-width: 650px){
 	.col-2 {
 		-ms-flex: 0 0 100%;
@@ -214,5 +226,15 @@
 
 	.hamburger {
 		display:inline;
+	}
+
+	.div2 {
+		width: 100%;
+	}
+
+	.col-3 {
+		-ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
 	}
 }
