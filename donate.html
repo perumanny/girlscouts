@@ -16,23 +16,23 @@
 
     <div class="container-fluid">
       <div class="row center padding header4">
-        <div class="col-2"><a href="index.html">
-            <div class="logo"><img class="float-left" src="assets/img/girlscoutlogo.jpg" alt="gs logo" height="40px"></div>
-            <div class="logo"><img class="float-right hamburger" src="assets/img/hamburger.png" alt="gs logo" width="35px"></div>
-          </a></div>
-        <div class="col-2"><a href="index.html">
+        <div class="col-2 marginbot"><a href="index.html">
+            <div class="logo"><img class="float-left" src="assets/img/girlscoutlogo.jpg" alt="gs logo" height="40px"></div></a>
+            <div class="logo ham"><img class="float-right hamburger" src="assets/img/hamburger.png" alt="gs logo" width="35px"></div>
+          </div>
+        <div class="col-2 data"><a href="index.html">
             <div class="div">home</div>
           </a></div>
-        <div class="col-2"><a href="volunteer.html">
+        <div class="col-2 data"><a href="volunteer.html">
             <div class="div">volunteer</div>
           </a></div>
-        <div class="col-2"><a href="donate.html">
+        <div class="col-2 data"><a href="donate.html">
             <div class="divactive">donate</div>
           </a></div>
-        <div class="col-2"><a href="about.html">
+        <div class="col-2 data"><a href="about.html">
             <div class="div">about</div>
           </a></div>
-        <div class="col-2"><a href="login.html">
+        <div class="col-2 data"><a href="login.html">
             <div class="login float-right">log in</div>
           </a></div>
       </div>
@@ -160,6 +160,18 @@
 					Copyright &copy; 2018 Christian Rodriguez. All rights reserved.
 			  	</div>
 		  </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+      <script>
+       $(document).ready(function(){
+         $('.ham').on('click', function(){
+           $('.data').toggle();
+         });
+       });
+      </script>
 
   </body>
 </html>
